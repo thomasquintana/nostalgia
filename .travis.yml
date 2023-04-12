@@ -1,0 +1,8 @@
+language: c
+dist: jammy
+before_install:
+  # Install Zig.
+  - snap install zig --classic --beta
+
+  # Check the Zig installation.
+  - zig --help
